@@ -1,0 +1,36 @@
+#app {
+
+    .drawer-list {
+        margin:0;
+        padding:0;
+        list-style: none;
+        text-decoration:none;
+    }
+    .drawer-list li {
+        background:#d7d3d3;
+        border-bottom:1px solid white;
+        height:100px;
+        padding-left:20px;
+        font-size:14px;
+        line-height:24px;
+    }
+    .drawer-list .el-col:last-child {
+        position:absolute;
+        top:50%;
+        right:0;
+        margin-top:-14px;
+    }
+    .drawer-list div {
+        text-align:left;
+    }
+    .drawer-list div .pr20 {
+        padding-right:20px;
+    }
+    .drawer-list li div:nth-child(2),.drawer-list li div:nth-child(4){
+        text-indent: 2em;
+    }
+    .drawer-list li div:nth-child(3){
+        text-indent: 4em;
+    }
+  }
+  

@@ -1,0 +1,13 @@
+#app {
+    .forecast-list li {
+        height:50px;
+        line-height:50px;
+    }
+    .forecast-list li .el-col:last-child{
+        position:absolute;
+        top:0;
+        right:0;
+        margin-top:0;
+    }
+  }
+  

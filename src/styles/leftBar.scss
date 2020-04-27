@@ -1,0 +1,171 @@
+// #app {
+//     .left-container{
+//         position: absolute;
+//         top: 20px;
+//         left: 00px;
+//         // background: rgb(141, 137, 141);
+//         border-radius: 5px;
+//         -webkit-border-radius: 5px;
+//         -moz-border-radius: 5px;
+//         -ms-border-radius: 5px;
+//         -o-border-radius: 5px;
+//     }
+   
+//     .left-container .iconfont{
+//         margin-right: 5px;
+//         width: 24px;
+//         text-align: center;
+//         font-size: 18px;
+//         vertical-align: middle;
+//         font-style: normal;
+//         font-weight: 400;
+//         font-variant: normal;
+//         text-transform: none;
+//         line-height: 1;
+//         display: inline-block;
+//     }
+
+//     .left-container .iconfont.icon-rotate{
+//         transform:rotate(45deg);
+//         -webkit-transform:rotate(45deg);
+//         -moz-transform:rotate(45deg);
+//         -ms-transform:rotate(45deg);
+//         -o-transform:rotate(45deg);
+// }
+//     .el-submenu{
+//         text-align: left;
+        
+//     }
+//     // 修改背景色
+//     .left-container .el-menu {
+//         border-right: none;
+//         list-style: none;
+//         position: relative;
+//         margin: 0;
+//         padding-left: 0;
+//         overflow: hidden;  
+//         box-sizing: border-box;
+//         width: 36px;
+//         transition: width 0.3s ease-in-out 0.1s;
+//         -webkit-transition: width 0.3s ease-in-out 0.1s;
+//         -moz-transition: width 0.3s ease-in-out 0.1s;
+//         -ms-transition: width 0.3s ease-in-out 0.1s;
+//         -o-transition: width 0.3s ease-in-out 0.1s;
+
+//         background: rgba(248, 250, 250, .59);
+//     }
+//     // 图标颜色
+//     .el-menu-item i {
+//         color: #fafafb;
+//     }
+
+//     .el-submenu__title i {
+//         color: #fafafb;
+//     }
+//     .left-container .el-menu-vertical-demo{
+//         border-radius: 18px;
+//         -webkit-border-radius: 18px;
+//         -moz-border-radius: 18px;
+//         -ms-border-radius: 18px;
+//         -o-border-radius: 18px;
+//     }
+    
+
+//     .left-container .el-submenu .el-menu-item {
+//         height: 40px;
+//         line-height: 40px;
+//         padding: 0 45px;
+//         min-width:auto; 
+//     }
+
+//     .left-container .el-submenu,.left-container .el-menu-item{
+//         width: 125px;
+//         text-align: left;
+//     }
+
+
+//     .left-container .el-submenu .el-submenu__title {
+//         height: 40px;
+//         line-height: 40px;
+//         padding:0 32px 0 7px !important;
+//     }
+
+//     .left-container .el-menu-item, .el-submenu__title {
+//         height: 40px;
+//         line-height: 40px;
+//         box-sizing: border-box;
+//     }
+
+//     .left-container .el-submenu__icon-arrow {
+//         right: 10px;
+//         margin-top: -6px;
+//         font-size: 12px;
+//     }
+
+//     .left-container .el-menu-item-group__title{
+//         padding: 0;
+//     }
+
+//     // 侧边栏内容隐藏
+//     .hoverShow{
+//         padding-left: 7px !important;
+//     }
+
+//     // 向下的箭头隐藏
+//     .left-container .el-icon-arrow-down{
+//         display: none;
+//     }
+
+//     .left-container .second-menu{
+//         display: none;
+//     }
+//     // 鼠标移入出现具体的侧边栏
+//     .left-container:hover .el-menu {
+//         width: 125px;
+//     }
+
+//     .left-container:hover .el-icon-arrow-down {
+//        display: inline-block;
+//     }
+
+//     .left-container:hover .second-menu {
+//         display: inline-block;
+//      }
+//      .left-container .commonThird{
+//          display: none;
+//      }
+//      .left-container .second-menu.FY:hover .commonThird{
+//         display: block;
+//      }
+
+//      .left-container .hoverShow:hover .commonThird{
+//         display: block;
+//      }
+
+//     // 侧边栏移入变色
+//     .left-container .el-submenu__title:hover {
+//         background-color: #00F0FF;
+//         color: azure;
+//     }
+//     .left-container .el-menu-item:focus{
+//         outline: 0;
+//         background-color: transparent;
+//         color: #303133;
+//     }
+    
+
+//     .left-container .el-menu-item:hover {
+//         outline: 0;
+//         background-color: #00F0FF;
+//         color: azure;
+//     }
+
+//     // 点击侧边栏样式去除
+//     .left-container .el-menu-item.is-active {
+//         color: #303133;
+//     }
+
+
+    
+// }
+  

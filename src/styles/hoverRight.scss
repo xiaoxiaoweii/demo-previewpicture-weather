@@ -1,0 +1,78 @@
+#app {
+  // 鼠标移入显示的右侧工具栏
+  .left-container .right-container{
+      position: fixed;
+      left: 136px;
+      top: 162px;
+      width: 208px;
+      text-align: right;
+  }
+
+  .left-container .right-container .right-wrap{
+      display: inline-block;
+      width: 200px;
+      max-height: 422px;
+      background: rgba(122, 136, 139, .6);
+      overflow-y: scroll;
+      border-radius: 3px 0 0 3px;
+      -webkit-border-radius: 3px 0 0 3px;
+      -moz-border-radius: 3px 0 0 3px;
+      -ms-border-radius: 3px 0 0 3px;
+      -o-border-radius: 3px 0 0 3px;
+  }
+
+  .left-container .right-container .right-wrap::-webkit-scrollbar {/*滚动条整体样式*/
+      width: 3px;     /*高宽分别对应横竖滚动条的尺寸*/
+      height: 1px;
+  }
+  .left-container .right-container .right-wrap::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+      border-radius: 10px;
+      background-color: rgb(138, 137, 136);
+      background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+  }
+  .left-container .right-container .right-wrap::-webkit-scrollbar-track {/*滚动条里面轨道*/
+      -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      background: #EDEDED;
+  }
+
+  // li
+  .left-container .right-container .right-menu{
+      text-align: left;
+      padding: 0 20px 0 5px;
+      box-sizing: border-box;
+      cursor: pointer;
+      display: flex;
+  }
+
+  .left-container .right-container .menuCont{
+      display: inline-block;
+      width: 178px;
+      padding:2px 5px;
+      font-size: 12px;
+      font-family:FZLTHJW--GB1-0,FZLTHJW--GB1;
+      font-weight:normal;
+      color:rgba(255,255,255,1);
+      line-height: 28px;
+      text-align: left;
+      border-bottom: .8px solid rgba(192, 188, 188, .5);
+  }
+
+  // 点击改变背景色
+  .left-container .right-container .menuBg{
+      background: rgba(0, 240, 255, .6);
+    }
+
+
+    // 探测仪3级菜单位置
+    .left-container .right-container.FY-detector{
+        top: 203px;
+    }
+
+    // 闪点仪3级菜单位置
+    .left-container .right-container.FY-lightning{
+        top: 242px;
+    }
+  
+
+}

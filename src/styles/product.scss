@@ -1,0 +1,121 @@
+#app {
+    .makeHeader {
+        width:180px;
+        background:#e5e5e5;
+        border-right:1px solid #00baad;
+        border-top:1px solid #cccccc;
+        margin:0;
+        padding:0;
+        float:left;
+    }
+    .makeHeader .makeTitle {
+        height:38px;
+        background:white;
+        vertical-align:middle;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .makeHeader ul{
+        list-style: none;
+        line-height:24px;
+        text-align:left;
+        padding:0 20px;
+        font-size:14px;
+    }
+    .makeHeader ul li i {
+        float:right;
+        color:#a6a6a6;
+    }
+    .makeHeader .el-input,.el-select {
+        width:160px;
+        margin:3px;
+    }
+    .makeHeader .el-button {
+        float:right;
+        margin:3px 10px;
+    }
+    .makeContent {
+        margin:0;
+        padding:0;
+        float:left;
+        font-size:14px;
+        position: relative;
+    }
+    
+    .makeContent ul{
+        display: flex;
+        list-style: none;
+        margin:0;
+        padding:0;
+        line-height:24px;
+        justify-content: space-around;
+    
+    }
+    .makeContent .makeItem {
+        border-right:1px solid #00baad;
+        border-top:1px solid #cccccc;
+    }
+    .makeContent .makeItem .editImg {
+        height:140px;
+    }
+    .makeContent .contentTime {
+        line-height:38px;
+        border-bottom:1px solid #cccccc;
+    }
+    .makeContent .mainContent {
+        padding:13px 0 3px;
+    }
+    .makeContent .mainContent ul {
+        height:24px;
+    }
+    
+    .makeContent .tem {
+        background-image: linear-gradient(#eaf1af, #d2f3ab);
+        display:flex;
+    }
+    
+    .makeContent .tem1 {
+        background: #efcecc;
+        color:#818080;
+    }
+    .makeContent .ocean {
+        background-image: linear-gradient(to right,#45eb00, #c2c402);
+    }
+    .makeContent .wind {
+        background-image: linear-gradient(to right,#bea9ff, #f9a66c);
+    }
+    .makeContent .airpressure {
+        background:#eaeaf5;
+        color:#5f7d9e;
+    }
+    .makeContent .detail {
+        height:100%;
+        background:#e5e5e5;
+        line-height: 24px;
+        text-align: left;
+        padding-left:10px;
+    }
+    .makeContent .detail .el-textarea {
+        width:180px;
+        height:30px;
+    }
+    /* 指针 */
+    .pointer {
+        position:absolute;
+        top:0;
+        left:20px;
+        width:2px ;
+        height:100%;
+        background:#ff8d1a;
+    }
+    .pointer i {
+        font-size:30px;
+        position: absolute;
+        top:60px;
+        margin-left:-16px;
+        color:#a5d63f;
+    }
+
+  }
+  

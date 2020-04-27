@@ -1,0 +1,23 @@
+#app {
+    .filterBox {
+        background:white;
+        height:36px;
+        position: absolute;
+        left:20px;
+        top:100px;
+        padding:5px 10px;
+        border-radius: 3px;
+        box-shadow: 15px #888888;
+    }
+    .filterBox .el-select ,.filterBox .el-input {
+        margin-right:5px;
+        margin-top:2px;
+    }
+    .filterBox i {
+        color:#2974f4;
+        font-size:20px;
+        font-weight:bold;
+        line-height:32px;
+    }
+  }
+  
