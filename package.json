@@ -54,7 +54,7 @@
     "node-sass": "^4.13.1",
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
-    "path-to-regexp": "2.4.0",
+    "path-to-regexp": "8.0.0",
     "sass-loader": "^8.0.2",
     "screenfull": "4.2.0",
     "showdown": "^1.9.1",
